@@ -13,6 +13,8 @@ public class DecimalFormatMain {
     static public void customFormat(String pattern, double value ) {
         DecimalFormat myFormatter = new DecimalFormat(pattern);
         String output = myFormatter.format(value);
-        System.out.println(value + "  " + pattern + "  " + output);
+        System.out.println("\nRaw value: " +value+
+                "\nformat pattern: " +pattern+
+                "\nformatted value: " +output);
     }
 }

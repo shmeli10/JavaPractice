@@ -3,7 +3,7 @@ package java_regular.data.type.enums.example2;
 public enum Shape {
     RECTANGLE, TRIANGLE, CIRCLE;
 
-    public double square(double x, double y) {
+    public double getSquare(double x, double y) {
         double result = 0;
 
         switch(this) {
