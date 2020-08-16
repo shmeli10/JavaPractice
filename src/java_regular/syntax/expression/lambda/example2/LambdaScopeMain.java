@@ -9,7 +9,6 @@ import java.util.function.Consumer;
     "Lambda expressions" are lexically scoped. This means that they do not inherit any names from a supertype or
     introduce a new level of scoping. Declarations in a "lambda expression" are interpreted just as they are in the
     enclosing environment.
-    The following example demonstrates this.
  */
 public class LambdaScopeMain {
     private int x = 0;
