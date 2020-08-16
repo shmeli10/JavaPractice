@@ -1,4 +1,4 @@
-package java_regular.interfaces.default_method;
+package java_regular.interfaces.regular_interface.default_method.example1;
 
 public class DefaultMethodMain {
     public static void main(String[] args) {
